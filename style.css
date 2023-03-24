@@ -10,13 +10,44 @@ header {
   background-color: #EC715F;
 }
 
+.header-group {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  width: 120px;
+  line-height: 70px;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+
 #mv {
   width: 100%;
   height: 650px;
   background-color: #000080;
 }
 
-#portforio {
+#portfolio {
   width: 100%;
   height: 650px;
   background-color: #008000;
@@ -26,4 +57,23 @@ header {
   width: 100%;
   height: 650px;
   background-color: #c71585;
+}
+
+#profile {
+  width: 100%;
+  height: 650px;
+  background-color: #ffa500;
+}
+
+#contact {
+  width: 100%;
+  height: 650px;
+  background-color: #00ffff;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60px;
 }

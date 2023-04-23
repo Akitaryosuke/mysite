@@ -64,6 +64,9 @@ a {
   height: 650px;
   background-color: #000080;
   text-align: center;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .mv-title {
@@ -79,8 +82,7 @@ a {
 
 #portfolio {
   width: 100%;
-  height: 650px;
-  background-color: #008000;
+  background-color: #ECEFF1;
 }
 
 .production-group {
@@ -105,6 +107,30 @@ a {
 
 .production:nth-child(3n) {
   margin-right: 0;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2 {
+  background-image: url(img/websuku.png);
+}
+
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
 }
 
 #feature {

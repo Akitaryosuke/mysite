@@ -59,6 +59,15 @@ a {
   font-size: 16px;
 }
 
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F;
+}
+
 #mv {
   width: 100%;
   height: 650px;
@@ -136,7 +145,6 @@ a {
 #feature {
   width: 100%;
   height: 650px;
-  background-color: #c71585;
 }
 
 .strength-group {

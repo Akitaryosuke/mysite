@@ -178,7 +178,7 @@ a {
 #profile {
   width: 100%;
   height: 650px;
-  background-color: #ffa500;
+  background-color: #ECEFF1;
 }
 
 .profile-group {
@@ -195,6 +195,7 @@ a {
   height: 250px;
   margin: 0 auto;
   border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
 }
 
 .right-content {
